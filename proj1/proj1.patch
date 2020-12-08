@@ -1,0 +1,17 @@
+--- dirgraph.odevzdany	2020-03-24 08:30:04.000000000 +0100
++++ dirgraph	2020-04-15 07:54:38.000000000 +0200
+@@ -98,10 +98,10 @@
+ # - Prints whole output to Stdin. 
+ function Output(){
+ 
+-	echo "Root Directory: "$DIR
+-	echo "Directories: "$ND 	#number with current directory
+-	echo "All Files: "$NF		#number with hidden files(.DS_store on mac)
+-	echo "File size histogram: "
++	echo "Root directory: "$DIR
++	echo "Directories:"$ND 	#number with current directory
++	echo "All files:"$NF		#number with hidden files(.DS_store on mac)
++	echo "File size histogram:"
+ 	echo "  <100 B  : "$LT_100B
+ 	echo "  <1 KiB  : "$LT_1KiB
+ 	echo "  <10 KiB : "$LT_10KiB
