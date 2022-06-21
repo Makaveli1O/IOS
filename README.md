@@ -4,4 +4,4 @@
 
 # IOS - projekt 2 C, semafory (sudca imigranti..)
 
-## 5/15 b
+## 8/15 b
